@@ -1,0 +1,47 @@
+body{
+    width: 60%;
+    margin: 0px auto;
+}
+
+table, td, th{
+    border: 1px solid black;
+    margin: 0;
+    padding: 10px 20px;
+    border-collapse: collapse;
+    font-family: 'Roboto', 'Noto Sans KR';
+}
+
+table{
+    margin: 30px auto;
+}
+
+th{
+    font-weight: 400;
+}
+
+.selected-hs{
+    background-color: aquamarine;
+}
+
+.edit{
+    vertical-align: middle;
+}
+
+#edit-button{
+    background-color: green;
+    color: white;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    float: right;
+}
+
+select{
+    float: right;
+    font-family: 'Roboto';
+}
+
+#edit-button.inactive{
+    background-color: gray;
+}
